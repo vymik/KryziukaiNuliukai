@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+html {
+  font-size: 16px;
+}
+
+html,
+body {
+  margin: 0 auto;
+}
+
+#but-wrap {
+  width: 600px;
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#but-wrap button {
+  width: 33.3333%;
+  font-size: 3rem;
+  font-weight: 700;
+}
+/*# sourceMappingURL=main.css.map */
